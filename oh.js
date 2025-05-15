@@ -52,6 +52,12 @@ function getBotResponse(message) {
         return "Saya tidak bisa merasakan sakit atau sehat! Bagaimana kabarmu?";
     } else if (msg.includes("bantuin dong")) {
         return "Kamu bisa bertanya tentang apa saja. Coba saja!";
+    } else if (msg.includes("aku baik")) {
+        return "Wah itu kabar yang sangat bagus, bagai mana hari mu?";
+    } else if (msg.includes("Aku lelah")) {
+        return "Mungkin kamu perlu beristirahat sejenak agar merasa lebih baik";
+    } else if (msg.includes("apa yang bisa kamu lakukan")) {
+        return "aku bisa melakukan apa pun";
     } else {
         const defaultResponses = [
             "Hmm, bisa jelaskan lebih detail?",
